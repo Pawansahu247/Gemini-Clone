@@ -109,6 +109,7 @@
 
 export const sendMessageToGemini = async (prompt) => {
   const GROQ_API_KEY = "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"; // Replace with your real key
+console.log("pawan");
 
   try {
     const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
